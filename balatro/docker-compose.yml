@@ -1,0 +1,16 @@
+services:
+  rtmp-server:
+    image: bluenviron/mediamtx:latest
+    ports:
+      - "1935:1935"
+      - "8888:8888" 
+
+  balatro-ai:
+    build: .
+    container_name: balatro_vision
+    depends_on:
+      - rtmp-server
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
