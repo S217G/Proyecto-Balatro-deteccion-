@@ -1,6 +1,6 @@
 # 🃏 Balatro Vision: IA de Detección de Cartas en Tiempo Real
 
-Este proyecto implementa un sistema de visión artificial para el juego **Balatro**. Utiliza un modelo **YOLO** (v8 o v11) entrenado para identificar cartas y palos en tiempo real a través de un flujo de video enviado desde **OBS Studio** hacia contenedores **Docker**.
+Este proyecto implementa un sistema de visión artificial para el juego **Balatro**. Utiliza un modelo **YOLO** v8 entrenado para identificar cartas y palos en tiempo real a través de un flujo de video enviado desde **OBS Studio** hacia contenedores **Docker**.
 link con el dataset subido en drive:
 https://drive.google.com/drive/folders/1kMSBHG3xBHJos9hLqAqVrsynY_G8ikNS?usp=sharing
 
