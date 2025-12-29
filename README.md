@@ -30,7 +30,7 @@ docker compose up --build
 ```
 El sistema estará listo cuando veas el mensaje:```Serving Flask app 'detect' Running on http://0.0.0.0:5000.```
 
-##🎥 Configuración de OBS Studio (Obligatorio)
+## 🎥 Configuración de OBS Studio (Obligatorio)
 
 Para que la IA funcione correctamente y sin retraso, aplica estos ajustes en OBS:
 
