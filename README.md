@@ -51,12 +51,12 @@ Resolución de salida: 1280x720 o 640x640 (Resoluciones bajas mejoran el rendimi
 
 FPS: 10 o 15 (Suficiente para Balatro y evita saturar el procesador).
 
-##🖥️ Visualización
+## 🖥️ Visualización
 Una vez iniciada la transmisión en OBS, accede a la interfaz de detección en vivo:
 
 👉 http://localhost:5000
 
-##🛠️ Solución de Problemas
+## 🛠️ Solución de Problemas
 "Reader is too slow / Discarding frames": Tu CPU no procesa a tiempo. Reduce los FPS en OBS a 10 y la resolución a 480p.
 
 "Skipping track 1 (H265)": OpenCV no soporta H265 vía RTMP. Cambia el codificador de OBS a H.264.
@@ -65,5 +65,5 @@ Una vez iniciada la transmisión en OBS, accede a la interfaz de detección en v
 
 Docker no reconocido: Asegúrate de que Docker Desktop esté abierto y configurado en el PATH del sistema.
 
-##🧠 Entrenamiento (Google Colab)
-El archivo Untitled0.ipynb incluye el código para entrenar modelos YOLOv8 o YOLO11. Asegúrate de exportar tu dataset desde Roboflow en formato YOLOv8 para obtener las etiquetas en archivos .txt compatibles.
+## 🧠 Entrenamiento (Google Colab)
+El archivo Entrenamiento balatro.ipynb incluye el código para entrenar modelos YOLOv8 o YOLO11. Asegúrate de exportar tu dataset desde Roboflow en formato YOLOv8 para obtener las etiquetas en archivos .txt compatibles.
